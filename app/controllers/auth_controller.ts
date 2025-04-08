@@ -48,7 +48,7 @@ export default class AuthController {
    *   "message": "Chưa đăng nhập"
    * }
    */
-  async logout({ auth }: HttpContext) {
+  async logout() {
   
     return { message: 'Logged out successfully' }
   }
